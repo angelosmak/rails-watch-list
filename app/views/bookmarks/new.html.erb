@@ -1,0 +1,8 @@
+<div class="container mt-2 mb-5">
+  <%= simple_form_for @bookmark do |f| %>
+    <%= f.input :comment %>
+    <%= f.collection_select :movie_id, @movies, :id, :title, prompt: "Select a movie" %>
+    <%= f.collection_select :list_id, @lists, :id, :name, prompt: "Select a list" %>
+    <%= f.button :submit , class: "btn btn-outline-primary" %>
+  <% end %>
+</div>

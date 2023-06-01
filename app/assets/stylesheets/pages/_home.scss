@@ -1,1 +1,63 @@
 // Specific CSS for your home-page
+.image {
+  background-image: url("https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1625&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h2{
+    color:bisque;
+    box-shadow: black;
+    box-decoration-break: inherit;
+  }
+}
+
+.show1 {
+  background-image: url("https://images.unsplash.com/photo-1506971456216-7b494f54d588?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1673&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color:bisque;
+  font-style: italic;
+  font-size: large;
+  text-decoration: none;
+}
+
+.show2 {
+  background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.show3 {
+  background-image: url("https://images.unsplash.com/photo-1526539266122-bda94251d2e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.show4 {
+  background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1772&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

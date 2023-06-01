@@ -1,0 +1,23 @@
+<div class="container d-flex ">
+  <% @list.each do |list| %>
+  <div class="card rounded text-center show1 my-5 mx-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; height: 15rem;">
+    <%= link_to "#{list.name}",lists_show_path, class:"text-decoration-none"%>
+  </div>
+  <% end %>
+    <%= link_to "Create a movie list", new_list_path,class: "btn btn-outline-secondary mt-3 text-center " ,style:"width: 16%; height: 10%;"%>
+</div>
+<div class="container d-flex ">
+  <div class="card rounded text-center show1 my-5 mx-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; height: 15rem;">
+    <p>Classy</p>
+  </div>
+  <div class="card rounded text-center show2 my-5 mx-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; height: 15rem;">
+    <p>Horror</p>
+  </div>
+  <div class="card rounded text-center show3 my-5 mx-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; height: 15rem;">
+    <p>Nature</p>
+  </div>
+  <div class="card rounded text-center show4 my-5 mx-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; height: 15rem;">
+    <p>Documentaries</p>
+  </div>
+  <%= link_to "Add a new bookmark", new_list_path,class: "btn btn-outline-secondary mt-3 text-center " ,style:"width: 16%; height: 10%;"%>
+</div>
