@@ -10,11 +10,3 @@ development:
 test:
   <<: *default
   database: rails-watch-list_test
-
-cloudinary:
-  service: Cloudinary
-  folder: <%= Rails.env %>
-
-production:
-  <<: *default
-  database:  rails-watch-list
