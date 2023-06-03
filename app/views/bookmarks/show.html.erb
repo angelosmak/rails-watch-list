@@ -1,6 +1,0 @@
-<div class="container d-flex ">
-  <div class="card rounded text-center show1 my-5 mx-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; height: 15rem;">
-    <%= @bookmark.movie.title%>
-    <%= link_to "Delete", list_path(@bookmark.list.id), data: { turbo_method: :delete, turbo_confirm: "Are you sure?" }, class: "btn btn-link delete-button" %>
-  </div>
-</div>

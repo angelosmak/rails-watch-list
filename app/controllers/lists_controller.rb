@@ -10,13 +10,13 @@ class ListsController < ApplicationController
 
   def create
     @list = List.new(list_params)
-    @list.bookmark = @bookmark
     @list.save
-    redirect_to lists_path
+    redirect_to list_path(@list)
   end
 
   def show
-    @list = List.find(list_params)
+    @list = List.find(params[:id])
+    @movies = Movie.all
   end
 
   def update

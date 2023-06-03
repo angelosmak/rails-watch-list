@@ -1,8 +1,10 @@
+<div class="list banner shadow-lg p-3 mb-3 bg-body-tertiary rounded">
+  <h2 class="shadow rounded fs-1 fw-bold"><%= @list.name %></h2>
+</div>
 <div class="container mt-2 mb-5">
-  <%= simple_form_for @bookmark do |f| %>
-    <%= f.input :comment %>
+  <%= simple_form_for [@list,@bookmark] do |f| %>
     <%= f.collection_select :movie_id, @movies, :id, :title, prompt: "Select a movie" %>
-    <%= f.collection_select :list_id, @lists, :id, :name, prompt: "Select a list" %>
+    <%= f.input :comment %>
     <%= f.button :submit , class: "btn btn-outline-primary" %>
   <% end %>
 </div>
